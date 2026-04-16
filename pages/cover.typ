@@ -8,8 +8,6 @@
 #let cover-supervising-examiner-label = "Supervising examiner"
 #let cover-second-examiner-label = "Second examiner"
 #let cover-submitted-on-label = "Submitted on"
-#let cover-university-line = "Student at the University of Potsdam"
-#let cover-institute-line = "Thesis conducted at the Fraunhofer Heinrich Hertz Institute (Fraunhofer HHI), Berlin"
 #let cover-submission-date-format = date => date.display("[month repr:long] [day], [year]")
 
 #let cover_page(
@@ -21,6 +19,8 @@
   cover-logo-right-width: 170pt,
   cover-page-margin: (left: 22mm, right: 22mm, top: 18mm, bottom: 20mm),
   cover-main-text-size: 23pt,
+  university-name: "University of Potsdam",
+  cover-institute-line: "Thesis conducted at the Fraunhofer Heinrich Hertz Institute (Fraunhofer HHI), Berlin",
   title: "",
   author: "",
   faculty: "",
@@ -67,7 +67,7 @@
           spacing: cover-footer-spacing,
           text(cover-study-course-label + " " + text(study-course, style: "italic")),
           text(cover-faculty-label + " " + faculty),
-          text(cover-university-line),
+          text("Student at the " + university-name),
           text(cover-institute-line),
 
           v(2mm),

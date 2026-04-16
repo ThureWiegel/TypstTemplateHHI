@@ -13,6 +13,8 @@
   cover-logo-right-width: 170pt,
   cover-page-margin: (left: 22mm, right: 22mm, top: 18mm, bottom: 20mm),
   cover-main-text-size: 23pt,
+  university-name: "University of Potsdam",
+  cover-institute-line: "Thesis conducted at the Fraunhofer Heinrich Hertz Institute (Fraunhofer HHI), Berlin",
   title: "",
   keywords: none,
   abstract: none,
@@ -165,6 +167,8 @@
     cover-logo-right-width: cover-logo-right-width,
     cover-page-margin: cover-page-margin,
     cover-main-text-size: cover-main-text-size,
+    university-name: university-name,
+    cover-institute-line: cover-institute-line,
 
     title: title,
     author: author,
